@@ -9,26 +9,19 @@ import csv
 from trends_scraper import get_driver, scrape_interest_data
 
 
-def get_interest_data(query):
-    """Scrape Google Trends interest data for a query without writing a file."""
+def main():
+    # Build the URL for Google Trends. This is the page we'll scrape.
     date_range = "now%207-d"
     geo = "US"
+    query = "vibe coding"
     site = "https://trends.google.com/trends/explore"
     url = f"{site}?date={date_range}&geo={geo}&q={query}&hl=en"
 
+    # Build a driver for a browser
     driver = get_driver()
-    if driver is None:
-        raise RuntimeError("Could not initialize the Chrome driver")
 
-    try:
-        return scrape_interest_data(driver, url)
-    finally:
-        driver.quit()
-
-
-def main():
-    query = input("Enter a phrase or search term: ")
-    interest_data = get_interest_data(query)
+    # Scrape the interest data
+    interest_data = scrape_interest_data(driver, url)
 
     # Save data to a CSV file
     fname = 'scraped_data.csv'
@@ -38,6 +31,8 @@ def main():
         for region, interest in interest_data.items():
             writer.writerow({'Region': region, 'Interest': interest})
     print(f"Saved data to {fname}")
+
+    driver.quit()
 
 
 if __name__ == "__main__":

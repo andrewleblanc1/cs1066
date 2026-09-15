@@ -9,14 +9,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def main():
-    input_file = 'scraped_data.csv'
-    output_file = 'interest_data.png'
 
-    # Read the CSV file into a pandas dataframe
-    df = pd.read_csv(input_file)
-    print(f"Read data from {input_file}")
-    print(df.head())    # Sanity check
+def plot_interest_data(csv_file, output_file='interest_data.png'):
+    """Create the interest bar graph from a CSV filename or file-like object."""
+    df = pd.read_csv(csv_file)
+    print("Read CSV data")
+    print(df.head())
 
     # Plot the data in a bar chart
     plt.figure(figsize=(10, 6))
@@ -34,6 +32,11 @@ def main():
     # Save the plot to a file
     plt.savefig(output_file)
     print(f"Saved plot to {output_file}")
+
+
+def main():
+    plot_interest_data('scraped_data.csv')
+
 
 if __name__ == "__main__":
     main()
