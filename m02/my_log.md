@@ -1,8 +1,9 @@
 ## My Lab Notebook for CS1066 PSet #1
 
-INSERT-YOUR-NAME
+Andrew Le Blanc!
 
-INSERT-YOUR-VIDEO-LINK (after completing this assignment)
+https://drive.google.com/file/d/1zkDQ-BuFGa7oyscVcAtEZ-1pXwGurrK0/view?usp=sharing
+
 
 ----
 ----
