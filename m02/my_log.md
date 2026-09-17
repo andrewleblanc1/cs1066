@@ -129,4 +129,47 @@ Reflections on success/failure of this prompt:
 
 ### AI's Review
 
-... PASTE AI'S FEEDBACK ON THIS LAB NOTEBOOK HERE ...
+Here's an honest review, organized by what's working and what I'd push on.
+
+What's strong
+
+Your prompts get better as the pset goes on, and in a specific way worth naming. Prompt 1 states a goal plus a rationale ("so that the user does not need to edit the file every time"). Prompt 2 specifies data flow — import from one module, keep the CSV in memory instead of writing to disk, pass it to the plotting functions. Prompt 3 is the best of the three because it anticipates failure modes before they happen: filename sanitization, collision detection, and input validation on the y/n prompt. That progression from "what I want" to "what I want and how it should fail" is the actual skill this assignment is testing, and your notebook shows it.
+
+Your four-step process in Final Question 1 is a reasonable articulation, and including the loop back on failure is right.
+
+The main weakness: no evidence of evaluation
+
+Every reflection asserts success without showing how you know. "This prompt worked greatly," "all design goals were met," "no issues were found." How did you verify? Did you run it? What did you type at the prompt? Did you actually test the collision case by running it twice, and did you try typing "Y" or "maybe" at the y/n prompt to confirm the validation held?
+
+This matters more because of something you wrote yourself. In Subtask 1 you noted the AI used Python's native input and then said "Now we will see if this is actually the correct usage" — and the notebook never returns to answer that. The thread you opened is the exact thread a lab notebook exists to close.
+
+There's a nice irony here: in Final Question 2 you say prompting is the hardest step, but your notebook's weakest link is step 4, evaluation. That's worth saying out loud in your reflection — graders tend to reward that kind of self-diagnosis over "all goals met."
+
+A real bug in Prompt 2 that you got away with
+
+Read this clause again: "create the plot from the CSV created by the trends_plot.py." The CSV comes from trends_save.py — you said so correctly earlier in the same prompt, then misattributed it two sentences later. The AI inferred what you meant, which is a good outcome from a flawed prompt. That's a much more interesting reflection than "it worked": your prompt contained a contradiction and succeeded anyway, which tells you the model was pattern-matching your intent rather than following your spec literally. Useful to know, and not something to rely on.
+
+Reflecting on the wrong variable
+
+Twice you evaluate your prompt by its length ("a little long, but it accomplished the task, so favorable tradeoff"). Length isn't what made those prompts work — specificity about data flow and edge cases did. You could have cut Prompt 2 by a third without losing anything load-bearing, and it would still have worked. The better question is: which sentences in this prompt were doing the work, and which were noise?
+
+Smaller things
+
+Your original idea (overlaying multiple search terms, with a cap on how many) is more ambitious than the professor's example, and you picked the professor's without saying why. One sentence explaining that choice would strengthen the notebook.
+Three "final reflections" all answering "nothing, it was good" reads as not engaging with the question, even where the work was solid.
+Your two questions in Final Question 3 are both things you could answer in thirty seconds, and the second one (libraries for CSVs and graphs) you effectively already used in this pset. Stronger questions would come from something the pset raised but didn't settle — e.g., how Python modules share state when you import a function instead of running a script, which is precisely what Subtask 2 made you think about.
+The notebook never records what the AI actually changed. No snippet, no diff, no output. For reproducibility, even three lines would help.
+Housekeeping: the "NOTE: Delete this text..." boilerplate is still in Subtask 1. Typos in "varaible" (inside the prompt itself) and "libaries."
+Bottom line
+
+Good prompting instincts, especially on edge cases, and a real upward trajectory across the three subtasks. The notebook undersells the work because it substitutes confidence for evidence. Adding two sentences per subtask about what you ran and what you saw would raise this noticeably, and swapping one "nothing to change" for an honest limitation would do more for your grade than defending an approach nobody challenged.
+
+Want me to condense this into a shorter version sized for the "AI's Review" slot?
+
+
+
+
+
+
+
+
