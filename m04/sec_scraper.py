@@ -72,6 +72,24 @@ def fetch_json(session: requests.Session, endpoint: str) -> dict:
     return response.json()
 
 
+def _table_scale(table) -> int:
+    """Return the dollar multiplier stated by a filing table's context."""
+    context = " ".join(table.stripped_strings)
+    if table.parent is not None:
+        context += " " + " ".join(list(table.parent.stripped_strings)[:40])
+    nearby_unit = table.find_previous(
+        string=re.compile(r"(?:million|thousand)s?", re.IGNORECASE)
+    )
+    if nearby_unit:
+        context += " " + nearby_unit.strip()
+    context = re.sub(r"\s+", " ", context).replace("\xa0", " ").lower()
+    if re.search(r"(?:in|of|\$)\s*(?:us\s+)?millions?\b", context):
+        return 1_000_000
+    if re.search(r"(?:in|of|\$)\s*(?:us\s+)?thousands?\b", context):
+        return 1_000
+    return 1
+
+
 def _filing_rows(document: str, metric: str, filing: dict) -> list[dict]:
     """Extract annual metric rows from a primary 10-K HTML document."""
     soup = BeautifulSoup(document, "html.parser")
@@ -94,12 +112,7 @@ def _filing_rows(document: str, metric: str, filing: dict) -> list[dict]:
         if len(year_options) < 2:
             continue
 
-        scale = 1
-        table_text = " ".join(table.stripped_strings).lower().replace("\xa0", " ")
-        if re.search(r"\bin\s+millions\b", table_text):
-            scale = 1_000_000
-        elif re.search(r"\bin\s+thousands\b", table_text):
-            scale = 1_000
+        scale = _table_scale(table)
 
         for row in table_rows:
             cells = [" ".join(cell.stripped_strings) for cell in row.find_all(["th", "td"])]
@@ -108,6 +121,21 @@ def _filing_rows(document: str, metric: str, filing: dict) -> list[dict]:
             label = re.sub(r"\s+", " ", cells[0]).strip().lower()
             if metric == "assets":
                 label_rank = 0 if re.fullmatch(r"total assets(?:\s*\(\d+\))?", label) else None
+            elif metric == "net_income":
+                if (
+                    "noncontrolling" in label
+                    or "per share" in label
+                    or "used in computing" in label
+                ):
+                    label_rank = None
+                elif label.startswith("net income attributable to common stockholders"):
+                    label_rank = 0
+                elif label in {"net income", "net income (loss)"}:
+                    label_rank = 1
+                elif label.startswith("net income"):
+                    label_rank = 2
+                else:
+                    label_rank = None
             else:
                 label_rank = next(
                     (
