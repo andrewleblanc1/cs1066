@@ -1,2 +1,2 @@
 # Original file
-print("What was given.")
+print("First modification.")
