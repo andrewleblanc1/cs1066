@@ -7,6 +7,7 @@ D = '\u2662'
 H = '\u2661'
 S = '\u2660'
 suits = [C, D, H, S]
+JOKER = 'Joker'
 
 # Build a list of card ranks
 ranks = [str(n) for n in range(2, 11)]
@@ -16,6 +17,7 @@ def shuffle(mixup=True):
     '''Returns sorted or unsorted (i.e., mixed-up) deck of cards '''
     # Build a full deck of cards
     deck = [rank + suit for suit in suits for rank in ranks]
+    deck.append(JOKER)
 
     if mixup:
         # Shuffle the deck

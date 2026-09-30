@@ -1,5 +1,5 @@
 ### m06/kings.py
-from cards import shuffle
+from cards import JOKER, shuffle
 
 class Hand(object):
     '''Simple class that defines a player's hand'''
@@ -36,6 +36,7 @@ in your hand. The point values for each card are as follows:
   * Numbered cards have their face value in points.
   * Jacks and Queens are 10 points.
   * Kings are 0 points.
+    * Jokers are 10 points and can match any rank.
 
 There are two players in the game, and each is dealt 5 cards.
 The remaining cards form the stock pile. The top card on the
@@ -154,6 +155,9 @@ def count_points(player_hand):
         the point total.'''
     points = 0
     for card in player_hand:
+        if card == JOKER:
+            points += 10
+            continue
         rank = card[0]
         if rank == 'A':
             points += 1
@@ -170,42 +174,55 @@ def drop_3(player):
         return the last of the three matching as the discard card. '''
     assert len(player) == 5, 'Called `drop_3` with fewer than 5 cards'
 
-    # Sort the hand to make it easy to find the three matching cards
+    # Sort the hand to make it easy to find matching cards
     player.hand.sort()
 
-    # Loop and look for 3 of the same rank in a row
-    last_card_rank = '0'
-    count = 0
-    for i, card in enumerate(player):
-        if count == 2 and card[0] == last_card_rank:
-            # Found the 3 to discard
-            player.pop(i)
-            player.pop(i-1)
-            return player.pop(i-2)
-        elif card[0] == last_card_rank:
-            # Found a 2nd matching card
-            assert count == 1, 'Bad logic somewhere'
-            count = 2
+    rank_indexes = {}
+    joker_index = None
+    for index, card in enumerate(player):
+        if card == JOKER:
+            joker_index = index
         else:
-            # Remeber rank and restart matching count
-            last_card_rank = card[0]
-            count = 1
+            rank_indexes.setdefault(card[0], []).append(index)
 
-    # We shouldn't ever get here
-    assert False, 'Called `drop_3` without 3 matching cards'
+    matching_indexes = next(
+        (indexes[:3] for indexes in rank_indexes.values() if len(indexes) >= 3),
+        None,
+    )
+    if matching_indexes is None and joker_index is not None:
+        matching_indexes = next(
+            (indexes[:2] + [joker_index]
+             for indexes in rank_indexes.values()
+             if len(indexes) >= 2),
+            None,
+        )
+
+    assert matching_indexes is not None, 'Called `drop_3` without 3 matching cards'
+    discard_index = min(matching_indexes)
+    discard = player.hand[discard_index]
+    for index in sorted(matching_indexes, reverse=True):
+        player.pop(index)
+    return discard
 
 def select_card(player):
     '''Asks player for the rank of a card to discard and
        verifies the response. Returns the index of the first
        card in the player's hand with that rank.'''
     while True:
-        rank = input('What is the rank of the card you want to discard? ')
+        rank = input('What is the rank (or Joker) of the card you want to discard? ')
+        if rank.lower() == JOKER.lower():
+            for i, card in enumerate(player):
+                if card == JOKER:
+                    return i
+            print('Card rank not in hand. Try again ...')
+            continue
+
         if rank != '10' and rank not in 'A23456789JQK':
             print('Bad card rank. Try again ...')
             continue
 
         for i, card in enumerate(player):
-            if card[0] == rank[0]:
+            if card != JOKER and card[0] == rank[0]:
                 return i
         else:
             print('Card rank not in hand. Try again ...')
