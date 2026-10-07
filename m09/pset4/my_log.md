@@ -147,6 +147,8 @@ Reflections on success/failure of this prompt:
 Failure:
 - This took multiple prompts because despite the screenshots and the description of the problem and solution, it still did not implement some of the UI fixes.
 - In multiple cases, the AI lies about fixing the problem, and I have to reprompt the AI. Perhaps this is not lying, its just incorrectly doing its job.
+
+
 ### Share Your Best NEW Refinement Strategy
 
 As you see in `cn09`,
