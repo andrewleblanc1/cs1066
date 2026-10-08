@@ -1,8 +1,8 @@
 ## My Lab Notebook for CS1066 PSet #4
 
-INSERT-YOUR-NAME
+Andrew Le Blanc
 
-INSERT-YOUR-VIDEO-LINK (after completing this assignment)
+[INSERT-YOUR-VIDEO-LINK (after completing this assignment)](https://drive.google.com/file/d/17ToKmw5BEsDNz7vstmqyEI0oQ2IjHLfR/view?usp=sharing)
 
 ----
 ----
@@ -149,6 +149,25 @@ Failure:
 - In multiple cases, the AI lies about fixing the problem, and I have to reprompt the AI. Perhaps this is not lying, its just incorrectly doing its job.
 
 
+Text of my next prompt:
+
+When the scenario settings are set to prioritize bringing on by overall score, please restrict the slider to max out at the number of people that have overall scores, in this case 45.
+
+A refinement strategy from class: Yes
+
+Provide constraints
+
+Reflections on success/failure of this prompt:
+
+*   Success:
+- It correctly restricted the slider to max out at the number of people that have overall scores
+- This is important because previously the AI had it so that you could include more people in the roster prioritized by score than the amount of people in the roster who even have a score. This led to positions 46 - ... choosing employees arbitrarily which is misleading
+
+Failure:
+- The only issue with this prompt is that the AI may have hardcoded this value
+- This means that the code may not meet its specification once we obtain overall scores for those who do not have any right now.
+- E.G. a 46th employee may get a score, but if the slider is hard capped at 45, then an employee with a score will not be included on the max size roster.
+
 ### Share Your Best NEW Refinement Strategy
 
 As you see in `cn09`,
@@ -156,3 +175,12 @@ As you see in `cn09`,
 1.  Write a short phrase that covers one of your new refinement strategies.
 2.  Give a two pairs of "do" and "don't" examples.
 3.  Add any description that helps others to use this refinement strategy.
+
+1. Assign the AI a specifc role to guide its response.
+2. DO: " Act as a Senior Software engineer that reviews Junior Devs code. Now review this Python Code for readability and bugs."
+Don't: "Review this code for bugs"
+DO: "Act as a course assistant for an intro level discrete math course. Explain Cantor's diagonal Proof to an intro level student."
+Don't" "Explain Cantor's diagonal proof
+3. Persona assignment means assigning the AI to a specific role relevant to your task, such as tutor, editor, or code reviewer. Pair the role with a clear task, intended audience, and desired tone or format. This helps guide the response, but assigning an expert persona does not guarantee accuracy.
+
+

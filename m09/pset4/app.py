@@ -684,23 +684,6 @@ except (OSError, csv.Error, ValueError) as error:
 if "team_size" not in st.session_state:
     st.session_state["team_size"] = min(10, len(roster))
 
-with st.container(key="scenario_control"):
-    st.markdown(
-        f"""
-<div class="scenario-heading">
-  <div><p class="eyebrow">Scenario control</p></div>
-</div>
-""",
-        unsafe_allow_html=True,
-    )
-    headcount = st.slider(
-        "Headcount to bring on",
-        min_value=0,
-        max_value=len(roster),
-        step=1,
-        key="team_size",
-    )
-
 st.sidebar.header("Scenario settings")
 prioritize_by = st.sidebar.radio(
     "Prioritize bringing on by",
@@ -786,6 +769,30 @@ else:
             -item["person"]["comp_usd"],
             item["person"]["employee_id"],
         ),
+    )
+
+headcount_max = (
+    sum(item["overall"] is not None for item in assessed_people)
+    if prioritize_by == "Overall score"
+    else len(roster)
+)
+st.session_state["team_size"] = min(st.session_state["team_size"], headcount_max)
+
+with st.container(key="scenario_control"):
+    st.markdown(
+        """
+<div class="scenario-heading">
+  <div><p class="eyebrow">Scenario control</p></div>
+</div>
+""",
+        unsafe_allow_html=True,
+    )
+    headcount = st.slider(
+        "Headcount to bring on",
+        min_value=0,
+        max_value=headcount_max,
+        step=1,
+        key="team_size",
     )
 
 if prioritize_by == "Compensation":
