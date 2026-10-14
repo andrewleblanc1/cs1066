@@ -176,7 +176,7 @@ As you see in `cn09`,
 2.  Give a two pairs of "do" and "don't" examples.
 3.  Add any description that helps others to use this refinement strategy.
 
-1. Assign the AI a specifc role to guide its response.
+1. Assign the AI a specifc persona to guide its response.
 2. DO: " Act as a Senior Software engineer that reviews Junior Devs code. Now review this Python Code for readability and bugs."
 Don't: "Review this code for bugs"
 DO: "Act as a course assistant for an intro level discrete math course. Explain Cantor's diagonal Proof to an intro level student."
