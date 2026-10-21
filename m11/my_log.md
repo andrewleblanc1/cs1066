@@ -101,7 +101,7 @@ Success - all success for this prompt since it successfully removed that irrelev
 
 ----
 
-Three fields you pick: pl_rade (planet radius), pl_orbper (orbial period in days), pl_eqt (equilibrium temperature in Kelvin)
+Three fields you pick: pl_rade (planet radius), pl_orbper (orbital period in days), pl_eqt (equilibrium temperature in Kelvin)
 
 ----
 
