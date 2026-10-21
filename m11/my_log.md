@@ -134,8 +134,7 @@ Reflections on success/failure of this prompt:
 - it stops users from setting ranges outside of these bounds
 failure
 - it created the incorrect bounds for 2 out of the 6 min/maxes
-- this is confusing, perhaps its using a different SQL command than me, I shall tell the ai in the next prompt to fix this and implement the bounds I have from querying the database.
-
+- this is confusing, it made me question whether the AI was using the same SQL commands as me and upon further evaluation, it was using the WHERE command which required all three fields to be filled out. Thus, it was giving the wrong bounds for 2 of the 6 because it did not include all of the values in that column.
 ----
 
 Text of my next prompt:
@@ -167,21 +166,6 @@ failure
 
 Text of my next prompt:
 
-Okay when the results are saved to viewlist_results.json, every time a new result is saved, it overwrites this file, can you create a folder that stores these result files, specifically allow for different result files to be made and name that by the min max parameters per field, if a file has the same name in this case, it matches the same range values for all three fields,we can  then overwrite it
-
-Reflections on success/failure of this prompt:
-
-*   success- 
-- it created a folder than now holds all the result jsons.
-- furthermore, the files in this folder have different names corresponding to the min-max range of the three field
-- the only case where files will be overridden is when the min-max range of the three fields are the same as a file already present in the results folder
-- This is all great because this is exactly what I wanted
-failure
-- The only possible failure that I could think of is that the file names are complicated, but I do not know of a simpler way to name them, so I am going to let this complication be
-
-
-Text of my next prompt:
-
 last fix, when inserting values, it ask my values to match what a user might see as arbitrary values, for example if in put 0.5 into the min planet radius field, it will ask me to choose like either 0.47 or 0.53. I am assuming it wants to match the value of a radius actually present in the database, I do not want this feature, i want them to be able to put whatever value they want as long as it is in the valid range
 
 Reflections on success/failure of this prompt:
@@ -190,7 +174,9 @@ Reflections on success/failure of this prompt:
 - the AI realized that the step attribute on inputs was causing this
 - so it correctly set step="any" to fix this problem which might confuse users
 failures
-- no failures on this prompt since I got exactly what I wanted and my program is complete!
+- While this prompt was not necessarily a failure, it makes me question why the AI would do this and I'll reflect on the failure that the AI made this mistake in the first place
+- Whats important to know, is that the AI defaults to this attribute when I leave this white space unspecified.
+- Therefore, in future programs, I should keep this in mind and tell the AI to set step="any" to avoid this problem in the future
 ----
 ----
 
@@ -205,7 +191,8 @@ Honestly, I have taken CS50 where we learn how to use SQL. Furthermore, I have d
 
 If you are talking about the query program in #4, I actually made it fairly accessible to be able to use it for almost every aspect of the database. The only aspect I didn't include was a table that was used by sqlite3 to keep track of what value they had for the autoincrement ids present in the tables relevant to users. Since this table is only relevant to the sqlite3 program and not relevant to users I removed from the schema it displays at the beginning of the program. I specifically displayed schema at the start of the program in the terminal so that users can easily navigate querying the database. I wanted the aspects of the database that the query program focused on to be decided by the users. I did this because I recognize users have different needs. 
 
-If this references activity 5, I chose the three fields because I believe those three fields are the most important in determining how closely a planet resembles earth. I wish I had my own justification for choosing these fields. To be honest, I am not an astronomer. Thus I delegated this decision to the internet and searched up which fields were the most important out of the list.
+If this references activity 5, I chose the three fields because I believe those three fields are the most important in determining how closely a planet resembles earth. I wish I had my own justification for choosing these fields. To be honest, I am not an astronomer. Thus I delegated this decision to the internet and searched up which fields were the most important out of the list. Then I chose pl_rade (planet radius) because earth sized planets are more likely to be rocky/terrestrial (similar terrain) rather than gas giants. A similiar radius also suggest similar graviational forces and the terrain is necessary for life. I chose pl_orbper (orbital period) because it correlates with the distance from the host star. Its a good indicator of weather or not the planet is in its host star's habital zone. A similar orbital period suggests a possibility of being in its star's habital zone which provides earth like resemblance. Lastly, I chose pl_eqt (equilibrium temperature) as this directly measures how much energy a planet receives from its star. This is the most direct proxy of weather liquid water can exist. Planets similar to earths equlibrium temperature are more likely to have temperate surface conditions which is necessary for life. Overall, these factors made me focus my queries on those three fields.
+
 
 
 -   Briefly describe how you decided on the interface in Activity #5.
