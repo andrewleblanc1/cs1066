@@ -1,0 +1,42 @@
+[
+  {
+    "pl_name": "Kepler-62 f",
+    "hostname": "Kepler-62",
+    "pl_rade": 1.41,
+    "pl_orbper": 267.291,
+    "pl_eqt": 208.0,
+    "score": 0.5235
+  },
+  {
+    "pl_name": "Kepler-1633 b",
+    "hostname": "Kepler-1633",
+    "pl_rade": 1.06,
+    "pl_orbper": 186.404271,
+    "pl_eqt": 336.0,
+    "score": 0.5867
+  },
+  {
+    "pl_name": "Kepler-452 b",
+    "hostname": "Kepler-452",
+    "pl_rade": 1.63,
+    "pl_orbper": 384.843,
+    "pl_eqt": 265.0,
+    "score": 0.6335
+  },
+  {
+    "pl_name": "Kepler-1126 c",
+    "hostname": "Kepler-1126",
+    "pl_rade": 1.45,
+    "pl_orbper": 199.66876,
+    "pl_eqt": 305.0,
+    "score": 0.6682
+  },
+  {
+    "pl_name": "Kepler-1632 b",
+    "hostname": "Kepler-1632",
+    "pl_rade": 1.66,
+    "pl_orbper": 448.303558,
+    "pl_eqt": 232.0,
+    "score": 0.7039
+  }
+]

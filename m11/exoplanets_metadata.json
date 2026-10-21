@@ -1,0 +1,35 @@
+{
+  "retrieved_at": "2026-10-21T15:42:55.088118+00:00",
+  "source_url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync",
+  "source_table": "ps",
+  "query": "SELECT TOP 18\n    pl_name,\n    hostname,\n    pl_rade,\n    pl_bmasse,\n    pl_orbper,\n    pl_eqt,\n    sy_vmag,\n    st_teff,\n    sy_dist,\n    ra,\n    dec,\n    discoverymethod,\n    disc_facility,\n    tran_flag,\n    pl_refname\nFROM ps\nWHERE pl_name IS NOT NULL\nORDER BY pl_name",
+  "selected_fields": [
+    "pl_name",
+    "hostname",
+    "pl_rade",
+    "pl_bmasse",
+    "pl_orbper",
+    "pl_eqt",
+    "sy_vmag",
+    "st_teff",
+    "sy_dist",
+    "ra",
+    "dec",
+    "discoverymethod",
+    "disc_facility",
+    "tran_flag",
+    "pl_refname"
+  ],
+  "response_hash": {
+    "algorithm": "sha256",
+    "value": "3b33f312d52604196e206fd54410624ab6410c5e4f52e83cfde361edc5144b33"
+  },
+  "transformations": [
+    "none \u2014 records written to CSV and JSON exactly as returned by the API"
+  ],
+  "output_files": {
+    "csv": "/workspaces/cs1066/m11/exoplanets.csv",
+    "json": "/workspaces/cs1066/m11/exoplanets.json",
+    "metadata": "/workspaces/cs1066/m11/exoplanets_metadata.json"
+  }
+}
