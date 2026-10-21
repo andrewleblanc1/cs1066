@@ -56,18 +56,19 @@ Reflections on success/failure of this prompt:
 - Furthermore, the queries correctly return the information we want (according to our query) in the terminal. Again, this is perfect because its exactly what we wanted per the problem description.
 
 Failure:
-- The output in the terminal is quite messy and hard to read, perhaps, we can store the queries in an easier to read file. Howver, on second thought, this will be handled in activity 5, so I will only focus on the next bullet point
-- For people that do not know the schema, they will not know how to query the database, therefore, we should have the terminal output the schema of our database for users.
+- The output in the terminal does not provide instruction, for people who have never used SQL, they will be confused on what to do, perhaps, I should provide a help command to show how to query the database
+- Furthermore,for people that do not know the schema, they will not know how to query the database, therefore, we should have the terminal output the schema of our database for users.
 
 ----
 
 Text of my next prompt:
 
-lets display the database schema when the program is run so that users know how to query this database
+lets display the database schema when the program is run so that users know how to query this database. Also provide a help command to assist users new to SQL by showing them examples of how to query the database
 
 Reflections on success/failure of this prompt:
 
 *   Success- correctly displayed the database schema in the terminal
+- Also provided the help command, which shows example queries and also the available tables and schema which is very helpful and can be used in the future if users forget the schema after a query.
 Failure - includes an unknown table sqlite_sequence, I do not its relation to the rest of the database and how it relates to what we want to know. I am going to ask the AI about this.
 
 ----
