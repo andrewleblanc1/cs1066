@@ -1,0 +1,399 @@
+{'column_name': 'st_nrvc', 'datatype': 'int', 'description': 'Number of Radial Velocity Time Series'}
+{'column_name': 'st_nspec', 'datatype': 'int', 'description': 'Number of Stellar Spectra Measurements'}
+{'column_name': 'pl_nnotes', 'datatype': 'int', 'description': 'Number of Notes'}
+{'column_name': 'pl_ntranspec', 'datatype': 'int', 'description': 'Number of Transmission Spectra'}
+{'column_name': 'pl_nespec', 'datatype': 'int', 'description': 'Number of Eclipse Spectra'}
+{'column_name': 'pl_ndispec', 'datatype': 'int', 'description': 'Number of Direct Imaging Spectra'}
+{'column_name': 'sy_pm', 'datatype': 'double', 'description': 'Total Proper Motion'}
+{'column_name': 'sy_pmerr1', 'datatype': 'double', 'description': 'Total Proper Motion Upper Unc'}
+{'column_name': 'sy_pmerr2', 'datatype': 'double', 'description': 'Total Proper Motion Lower Unc'}
+{'column_name': 'sy_pmstr', 'datatype': 'char', 'description': 'Total Proper Motion'}
+{'column_name': 'sy_pm_reflink', 'datatype': 'char', 'description': 'Total Proper Motion Reference'}
+{'column_name': 'sy_pmra', 'datatype': 'double', 'description': 'Proper Motion (RA)'}
+{'column_name': 'sy_pmraerr1', 'datatype': 'double', 'description': 'Proper Motion (RA) [mas/yr] Upper Unc'}
+{'column_name': 'sy_pmraerr2', 'datatype': 'double', 'description': 'Proper Motion (RA) [mas/yr] Lower Unc'}
+{'column_name': 'sy_pmrastr', 'datatype': 'char', 'description': 'Proper Motion (RA)'}
+{'column_name': 'sy_pmdec', 'datatype': 'double', 'description': 'Proper Motion (Dec)'}
+{'column_name': 'sy_pmdecerr1', 'datatype': 'double', 'description': 'Proper Motion (Dec) [mas/yr] Upper Unc'}
+{'column_name': 'sy_pmdecerr2', 'datatype': 'double', 'description': 'Proper Motion (Dec) [mas/yr] Lower Unc'}
+{'column_name': 'sy_pmdecstr', 'datatype': 'char', 'description': 'Proper Motion (Dec)'}
+{'column_name': 'sy_plx', 'datatype': 'double', 'description': 'Parallax'}
+{'column_name': 'sy_plxerr1', 'datatype': 'double', 'description': 'Parallax [mas] Upper Unc'}
+{'column_name': 'sy_plxerr2', 'datatype': 'double', 'description': 'Parallax [mas] Lower Unc'}
+{'column_name': 'sy_plxstr', 'datatype': 'char', 'description': 'Parallax'}
+{'column_name': 'sy_plx_reflink', 'datatype': 'char', 'description': 'Parallax Reference'}
+{'column_name': 'sy_dist', 'datatype': 'double', 'description': 'Distance'}
+{'column_name': 'sy_disterr1', 'datatype': 'double', 'description': 'Distance [pc] Upper Unc'}
+{'column_name': 'sy_disterr2', 'datatype': 'double', 'description': 'Distance [pc] Lower Unc'}
+{'column_name': 'sy_dist_reflink', 'datatype': 'char', 'description': 'Distance Refence'}
+{'column_name': 'sy_diststr', 'datatype': 'char', 'description': 'Distance'}
+{'column_name': 'sy_bmag', 'datatype': 'double', 'description': 'B (Johnson) Magnitude'}
+{'column_name': 'sy_bmagerr1', 'datatype': 'double', 'description': 'B (Johnson) Magnitude Upper Unc'}
+{'column_name': 'sy_bmagerr2', 'datatype': 'double', 'description': 'B (Johnson) Magnitude Lower Unc'}
+{'column_name': 'sy_bmagstr', 'datatype': 'char', 'description': 'B (Johnson) Magnitude'}
+{'column_name': 'sy_bmag_reflink', 'datatype': 'char', 'description': 'B (Johnson) Magnitude Reference'}
+{'column_name': 'sy_vmag', 'datatype': 'double', 'description': 'V (Johnson) Magnitude'}
+{'column_name': 'sy_vmagerr1', 'datatype': 'double', 'description': 'V (Johnson) Magnitude Upper Unc'}
+{'column_name': 'sy_vmagerr2', 'datatype': 'double', 'description': 'V (Johnson) Magnitude Lower Unc'}
+{'column_name': 'sy_vmag_reflink', 'datatype': 'char', 'description': 'V (Johnson) Magnitude Reference'}
+{'column_name': 'sy_vmagstr', 'datatype': 'char', 'description': 'V (Johnson) Magnitude'}
+{'column_name': 'sy_jmag', 'datatype': 'double', 'description': 'J (2MASS) Magnitude'}
+{'column_name': 'sy_jmagerr1', 'datatype': 'double', 'description': 'J (2MASS) Magnitude Upper Unc'}
+{'column_name': 'sy_jmagerr2', 'datatype': 'double', 'description': 'J (2MASS) Magnitude Lower Unc'}
+{'column_name': 'sy_jmagstr', 'datatype': 'char', 'description': 'J (2MASS) Magnitude'}
+{'column_name': 'sy_jmag_reflink', 'datatype': 'char', 'description': 'J (2MASS) Magnitude Reference'}
+{'column_name': 'sy_hmag', 'datatype': 'double', 'description': 'H (2MASS) Magnitude'}
+{'column_name': 'sy_hmagerr1', 'datatype': 'double', 'description': 'H (2MASS) Magnitude Upper Unc'}
+{'column_name': 'sy_hmagerr2', 'datatype': 'double', 'description': 'H (2MASS) Magnitude Lower Unc'}
+{'column_name': 'sy_hmagstr', 'datatype': 'char', 'description': 'H (2MASS) Magnitude'}
+{'column_name': 'sy_hmag_reflink', 'datatype': 'char', 'description': 'H (2MASS) Magnitude Reference'}
+{'column_name': 'sy_kmag', 'datatype': 'double', 'description': 'Ks (2MASS) Magnitude'}
+{'column_name': 'sy_kmagerr1', 'datatype': 'double', 'description': 'Ks (2MASS) Magnitude Upper Unc'}
+{'column_name': 'sy_kmagerr2', 'datatype': 'double', 'description': 'Ks (2MASS) Magnitude Lower Unc'}
+{'column_name': 'sy_kmagstr', 'datatype': 'char', 'description': 'Ks (2MASS) Magnitude'}
+{'column_name': 'sy_kmag_reflink', 'datatype': 'char', 'description': 'Ks (2MASS) Magnitude Reference'}
+{'column_name': 'sy_umag', 'datatype': 'double', 'description': 'u (Sloan) Magnitude'}
+{'column_name': 'sy_umagerr1', 'datatype': 'double', 'description': 'u (Sloan) Magnitude Upper Unc'}
+{'column_name': 'sy_umagerr2', 'datatype': 'double', 'description': 'u (Sloan) Magnitude Lower Unc'}
+{'column_name': 'sy_umag_reflink', 'datatype': 'char', 'description': 'u (Sloan) Magnitude Reference'}
+{'column_name': 'sy_umagstr', 'datatype': 'char', 'description': 'u (Sloan) Magnitude'}
+{'column_name': 'sy_rmag', 'datatype': 'double', 'description': 'r (Sloan) Magnitude'}
+{'column_name': 'sy_rmagerr1', 'datatype': 'double', 'description': 'r (Sloan) Magnitude Upper Unc'}
+{'column_name': 'sy_rmagerr2', 'datatype': 'double', 'description': 'r (Sloan) Magnitude Lower Unc'}
+{'column_name': 'sy_rmag_reflink', 'datatype': 'char', 'description': 'r (Sloan) Magnitude Reference'}
+{'column_name': 'sy_rmagstr', 'datatype': 'char', 'description': 'r (Sloan) Magnitude'}
+{'column_name': 'sy_imag', 'datatype': 'double', 'description': 'i (Sloan) Magnitude'}
+{'column_name': 'sy_imagerr1', 'datatype': 'double', 'description': 'i (Sloan) Magnitude Upper Unc'}
+{'column_name': 'sy_imagerr2', 'datatype': 'double', 'description': 'i (Sloan) Magnitude Lower Unc'}
+{'column_name': 'sy_imag_reflink', 'datatype': 'char', 'description': 'i (Sloan) Magnitude Reference'}
+{'column_name': 'sy_imagstr', 'datatype': 'char', 'description': 'i (Sloan) Magnitude'}
+{'column_name': 'sy_zmag', 'datatype': 'double', 'description': 'z (Sloan) Magnitude'}
+{'column_name': 'sy_zmagerr1', 'datatype': 'double', 'description': 'z (Sloan) Magnitude Upper Unc'}
+{'column_name': 'sy_zmagerr2', 'datatype': 'double', 'description': 'z (Sloan) Magnitude Lower Unc'}
+{'column_name': 'sy_zmag_reflink', 'datatype': 'char', 'description': 'z (Sloan) Magnitude Reference'}
+{'column_name': 'sy_zmagstr', 'datatype': 'char', 'description': 'z (Sloan) Magnitude'}
+{'column_name': 'sy_w1mag', 'datatype': 'double', 'description': 'W1 (WISE) Magnitude'}
+{'column_name': 'sy_w1magerr1', 'datatype': 'double', 'description': 'W1 (WISE) Magnitude Upper Unc'}
+{'column_name': 'sy_w1magerr2', 'datatype': 'double', 'description': 'W1 (WISE) Magnitude Lower Unc'}
+{'column_name': 'sy_w1mag_reflink', 'datatype': 'char', 'description': 'W1 (WISE) Magnitude Reference'}
+{'column_name': 'sy_w1magstr', 'datatype': 'char', 'description': 'W1 (WISE) Magnitude'}
+{'column_name': 'sy_w2mag', 'datatype': 'double', 'description': 'W2 (WISE) Magnitude'}
+{'column_name': 'sy_w2magerr1', 'datatype': 'double', 'description': 'W2 (WISE) Magnitude Upper Unc'}
+{'column_name': 'sy_w2magerr2', 'datatype': 'double', 'description': 'W2 (WISE) Magnitude Lower Unc'}
+{'column_name': 'sy_w2mag_reflink', 'datatype': 'char', 'description': 'W2 (WISE) Magnitude Reference'}
+{'column_name': 'sy_w2magstr', 'datatype': 'char', 'description': 'W2 (WISE) Magnitude'}
+{'column_name': 'sy_w3mag', 'datatype': 'double', 'description': 'W3 (WISE) Magnitude'}
+{'column_name': 'sy_w3magerr1', 'datatype': 'double', 'description': 'W3 (WISE) Magnitude Upper Unc'}
+{'column_name': 'sy_w3magerr2', 'datatype': 'double', 'description': 'W3 (WISE) Magnitude Lower Unc'}
+{'column_name': 'sy_w3mag_reflink', 'datatype': 'char', 'description': 'W3 (WISE) Magnitude Reference'}
+{'column_name': 'sy_w3magstr', 'datatype': 'char', 'description': 'W3 (WISE) Magnitude'}
+{'column_name': 'sy_w4mag', 'datatype': 'double', 'description': 'W4 (WISE) Magnitude'}
+{'column_name': 'sy_w4magerr1', 'datatype': 'double', 'description': 'W4 (WISE) Magnitude Upper Unc'}
+{'column_name': 'sy_w4magerr2', 'datatype': 'double', 'description': 'W4 (WISE) Magnitude Lower Unc'}
+{'column_name': 'sy_w4mag_reflink', 'datatype': 'char', 'description': 'W4 (WISE) Magnitude Reference'}
+{'column_name': 'sy_w4magstr', 'datatype': 'char', 'description': 'W4 (WISE) Magnitude'}
+{'column_name': 'sy_gmag', 'datatype': 'double', 'description': 'g (Sloan) Magnitude'}
+{'column_name': 'sy_gmagerr1', 'datatype': 'double', 'description': 'g (Sloan) Magnitude Upper Unc'}
+{'column_name': 'sy_gmagerr2', 'datatype': 'double', 'description': 'g (Sloan) Magnitude Lower Unc'}
+{'column_name': 'sy_gmag_reflink', 'datatype': 'char', 'description': 'g (Sloan) Magnitude Reference'}
+{'column_name': 'sy_gmagstr', 'datatype': 'char', 'description': 'g (Sloan) Magnitude'}
+{'column_name': 'sy_gaiamag', 'datatype': 'double', 'description': 'Gaia Magnitude'}
+{'column_name': 'sy_gaiamagerr1', 'datatype': 'double', 'description': 'Gaia Magnitude Upper Unc'}
+{'column_name': 'sy_gaiamagerr2', 'datatype': 'double', 'description': 'Gaia Magnitude Lower Unc'}
+{'column_name': 'sy_gaiamagstr', 'datatype': 'char', 'description': 'Gaia Magnitude'}
+{'column_name': 'sy_gaiamag_reflink', 'datatype': 'char', 'description': 'Gaia Magnitude Reference'}
+{'column_name': 'sy_tmag', 'datatype': 'double', 'description': 'TESS Magnitude'}
+{'column_name': 'sy_tmagerr1', 'datatype': 'double', 'description': 'TESS Magnitude Upper Unc'}
+{'column_name': 'sy_tmagerr2', 'datatype': 'double', 'description': 'TESS Magnitude Lower Unc'}
+{'column_name': 'sy_tmagstr', 'datatype': 'char', 'description': 'TESS Magnitude'}
+{'column_name': 'sy_tmag_reflink', 'datatype': 'char', 'description': 'TESS Magnitude Reference'}
+{'column_name': 'pl_controv_flag', 'datatype': 'int', 'description': 'Controversial Flag'}
+{'column_name': 'pl_orbtper_systemref', 'datatype': 'char', 'description': 'Time Solnid Frame and Standard'}
+{'column_name': 'pl_tranmid_systemref', 'datatype': 'char', 'description': 'Time Reference Frame and Standard'}
+{'column_name': 'st_metratio', 'datatype': 'char', 'description': 'Stellar Metallicity Ratio'}
+{'column_name': 'st_spectype', 'datatype': 'char', 'description': 'Spectral Type'}
+{'column_name': 'sy_kepmag', 'datatype': 'double', 'description': 'Kepler Magnitude'}
+{'column_name': 'sy_kepmagerr1', 'datatype': 'double', 'description': 'Kepler Magnitude Upper Unc'}
+{'column_name': 'sy_kepmagerr2', 'datatype': 'double', 'description': 'Kepler Magnitude Lower Unc'}
+{'column_name': 'sy_kepmag_reflink', 'datatype': 'char', 'description': 'Kepler Magnitude Reference'}
+{'column_name': 'sy_kepmagstr', 'datatype': 'char', 'description': 'Kepler Magnitude'}
+{'column_name': 'st_spectype_reflink', 'datatype': 'char', 'description': 'Spectral Type Reference'}
+{'column_name': 'st_rotp', 'datatype': 'double', 'description': 'Stellar Rotational Period'}
+{'column_name': 'st_rotperr1', 'datatype': 'double', 'description': 'Stellar Rotational Period [days] Upper Unc.'}
+{'column_name': 'st_rotperr2', 'datatype': 'double', 'description': 'Stellar Rotational Period [days] Lower Unc.'}
+{'column_name': 'st_rotplim', 'datatype': 'int', 'description': 'Stellar Rotational Period Limit Flag'}
+{'column_name': 'st_rotpstr', 'datatype': 'char', 'description': 'Stellar Rotational Period'}
+{'column_name': 'st_rotp_reflink', 'datatype': 'char', 'description': 'Stellar Rotational Period Reference'}
+{'column_name': 'pl_projobliq', 'datatype': 'double', 'description': 'Projected Obliquity'}
+{'column_name': 'pl_projobliqerr1', 'datatype': 'double', 'description': 'Projected Obliquity Upper Unc.'}
+{'column_name': 'pl_projobliqerr2', 'datatype': 'double', 'description': 'Projected Obliquity Lower Unc.'}
+{'column_name': 'pl_projobliqlim', 'datatype': 'int', 'description': 'Projected Obliquity Limit Flag'}
+{'column_name': 'pl_projobliqstr', 'datatype': 'char', 'description': 'Projected Obliquity'}
+{'column_name': 'pl_projobliq_reflink', 'datatype': 'char', 'description': 'Projected Obliquity Reference'}
+{'column_name': 'x', 'datatype': 'double', 'description': 'Spatial Coordinate X'}
+{'column_name': 'pl_trueobliq', 'datatype': 'double', 'description': 'True Obliquity'}
+{'column_name': 'pl_trueobliqerr1', 'datatype': 'double', 'description': 'True Obliquity Upper Unc.'}
+{'column_name': 'y', 'datatype': 'double', 'description': 'Spatial Coordinate Y'}
+{'column_name': 'z', 'datatype': 'double', 'description': 'Spatial Coordinate Z'}
+{'column_name': 'pl_trueobliqerr2', 'datatype': 'double', 'description': 'True Obliquity Lower Unc.'}
+{'column_name': 'htm20', 'datatype': 'int', 'description': 'Spatial Index'}
+{'column_name': 'gaia_dr3_id', 'datatype': 'char', 'description': 'Gaia DR3_ID'}
+{'column_name': 'gaia_dr2_id', 'datatype': 'char', 'description': 'Gaia DR2_ID'}
+{'column_name': 'pl_trueobliqlim', 'datatype': 'int', 'description': 'True Obliquity Limit Flag'}
+{'column_name': 'cb_flag', 'datatype': 'int', 'description': 'Circumbinary Flag'}
+{'column_name': 'pl_trueobliq_reflink', 'datatype': 'char', 'description': 'True Obliquity Reference'}
+{'column_name': 'pl_trueobliqstr', 'datatype': 'char', 'description': 'True Obliquity'}
+{'column_name': 'sy_icmag', 'datatype': 'double', 'description': 'I (Cousins) Magnitude'}
+{'column_name': 'sy_icmagerr1', 'datatype': 'double', 'description': 'I (Cousins) Magnitude Upper Unc'}
+{'column_name': 'sy_icmagerr2', 'datatype': 'double', 'description': 'I (Cousins) Magnitude Lower Unc'}
+{'column_name': 'sy_icmagstr', 'datatype': 'char', 'description': 'I (Cousins) Magnitude'}
+{'column_name': 'pl_angseplim', 'datatype': 'double', 'description': 'Angular Separation Limit Flag'}
+{'column_name': 'pl_angsepstr', 'datatype': 'char', 'description': 'Angular Separation'}
+{'column_name': 'elat', 'datatype': 'double', 'description': 'Ecliptic Latitude'}
+{'column_name': 'pl_orbper', 'datatype': 'double', 'description': 'Orbital Period'}
+{'column_name': 'pl_orbpererr1', 'datatype': 'double', 'description': 'Orbital Period Upper Unc.'}
+{'column_name': 'pl_orbpererr2', 'datatype': 'double', 'description': 'Orbital Period Lower Unc.'}
+{'column_name': 'pl_orbperlim', 'datatype': 'int', 'description': 'Orbital Period Limit Flag'}
+{'column_name': 'pl_orbper_reflink', 'datatype': 'char', 'description': 'Orbital Period Reference'}
+{'column_name': 'ra_reflink', 'datatype': 'char', 'description': 'RA Reference'}
+{'column_name': 'pl_orbperstr', 'datatype': 'char', 'description': 'Orbital Period'}
+{'column_name': 'pl_orblpererr1', 'datatype': 'double', 'description': 'Argument of Periastron Upper Unc.'}
+{'column_name': 'pl_orblper', 'datatype': 'double', 'description': 'Argument of Periastron'}
+{'column_name': 'pl_orblpererr2', 'datatype': 'double', 'description': 'Argument of Periastron Lower Unc.'}
+{'column_name': 'pl_orblperlim', 'datatype': 'int', 'description': 'Argument of Periastron Limit Flag'}
+{'column_name': 'pl_orblperstr', 'datatype': 'char', 'description': 'Argument of Periastron'}
+{'column_name': 'pl_orblper_reflink', 'datatype': 'char', 'description': 'Argument of Periastron Reference'}
+{'column_name': 'pl_orbsmax', 'datatype': 'double', 'description': 'Orbit Semi-Major Axis [au])'}
+{'column_name': 'pl_orbsmaxerr1', 'datatype': 'double', 'description': 'Orbit Semi-Major Axis Upper Unc.'}
+{'column_name': 'pl_orbsmaxerr2', 'datatype': 'double', 'description': 'Orbit Semi-Major Axis Lower Unc.'}
+{'column_name': 'pl_orbsmaxlim', 'datatype': 'int', 'description': 'Orbit Semi-Major Axis Limit Flag'}
+{'column_name': 'pl_orbsmax_reflink', 'datatype': 'char', 'description': 'Orbit Semi-Major Axis Reference'}
+{'column_name': 'pl_orbsmaxstr', 'datatype': 'char', 'description': 'Orbit Semi-Major Axis'}
+{'column_name': 'pl_orbincl', 'datatype': 'double', 'description': 'Inclination'}
+{'column_name': 'pl_orbinclerr1', 'datatype': 'double', 'description': 'Inclination Upper Unc.'}
+{'column_name': 'pl_orbinclerr2', 'datatype': 'double', 'description': 'Inclination Lower Unc.'}
+{'column_name': 'pl_orbincllim', 'datatype': 'int', 'description': 'Inclination Limit Flag'}
+{'column_name': 'pl_orbinclstr', 'datatype': 'char', 'description': 'Inclination'}
+{'column_name': 'pl_orbincl_reflink', 'datatype': 'char', 'description': 'Inclination Reference'}
+{'column_name': 'pl_orbtper', 'datatype': 'double', 'description': 'Epoch of Periastron'}
+{'column_name': 'pl_orbtpererr1', 'datatype': 'double', 'description': 'Epoch of Periastron Upper Unc.'}
+{'column_name': 'pl_orbtpererr2', 'datatype': 'double', 'description': 'Epoch of Periastron Lower Unc.'}
+{'column_name': 'pl_orbtperlim', 'datatype': 'int', 'description': 'Epoch of Periastron Limit Flag'}
+{'column_name': 'pl_orbtper_reflink', 'datatype': 'char', 'description': 'Epoch of Periastron Reference'}
+{'column_name': 'pl_orbtperstr', 'datatype': 'char', 'description': 'Epoch of Periastron'}
+{'column_name': 'pl_orbeccen', 'datatype': 'double', 'description': 'Eccentricity'}
+{'column_name': 'pl_orbeccenerr1', 'datatype': 'double', 'description': 'Eccentricity Upper Unc.'}
+{'column_name': 'pl_orbeccenerr2', 'datatype': 'double', 'description': 'Eccentricity Lower Unc.'}
+{'column_name': 'pl_orbeccenlim', 'datatype': 'int', 'description': 'Eccentricity Limit Flag'}
+{'column_name': 'pl_orbeccenstr', 'datatype': 'char', 'description': 'Eccentricity'}
+{'column_name': 'pl_orbeccen_reflink', 'datatype': 'char', 'description': 'Eccentricity Reference'}
+{'column_name': 'pl_eqt', 'datatype': 'double', 'description': 'Equilibrium Temperature'}
+{'column_name': 'pl_eqterr1', 'datatype': 'double', 'description': 'Equilibrium Temperature Upper Unc.'}
+{'column_name': 'pl_eqterr2', 'datatype': 'double', 'description': 'Equilibrium Temperature Lower Unc.'}
+{'column_name': 'pl_eqtlim', 'datatype': 'int', 'description': 'Equilibrium Temperature Limit Flag'}
+{'column_name': 'pl_eqtstr', 'datatype': 'char', 'description': 'Equilibrium Temperature'}
+{'column_name': 'pl_eqt_reflink', 'datatype': 'char', 'description': 'Equilibrium Temperature Reference'}
+{'column_name': 'pl_occdep', 'datatype': 'double', 'description': 'Occultation Depth'}
+{'column_name': 'pl_occdeperr1', 'datatype': 'double', 'description': 'Occultation Depth Upper Unc.'}
+{'column_name': 'pl_occdeperr2', 'datatype': 'double', 'description': 'Occultation Depth Lower Unc.'}
+{'column_name': 'pl_occdeplim', 'datatype': 'int', 'description': 'Occultation Depth Limit Flag'}
+{'column_name': 'pl_occdep_reflink', 'datatype': 'char', 'description': 'Occultation Depth Reference'}
+{'column_name': 'pl_occdepstr', 'datatype': 'char', 'description': 'Occultation Depth'}
+{'column_name': 'pl_insol', 'datatype': 'double', 'description': 'Insolation Flux'}
+{'column_name': 'pl_insolerr1', 'datatype': 'double', 'description': 'Insolation Flux Upper Unc.'}
+{'column_name': 'pl_insolerr2', 'datatype': 'double', 'description': 'Insolation Flux Lower Unc.'}
+{'column_name': 'pl_insollim', 'datatype': 'int', 'description': 'Insolation Flux Limit Flag'}
+{'column_name': 'pl_insol_reflink', 'datatype': 'char', 'description': 'Insolation Flux Reference'}
+{'column_name': 'pl_insolstr', 'datatype': 'char', 'description': 'Insolation Flux'}
+{'column_name': 'pl_dens', 'datatype': 'double', 'description': 'Planet Density'}
+{'column_name': 'pl_denserr1', 'datatype': 'double', 'description': 'Planet Density Upper Unc.'}
+{'column_name': 'pl_denserr2', 'datatype': 'double', 'description': 'Planet Density Lower Unc.'}
+{'column_name': 'pl_denslim', 'datatype': 'int', 'description': 'Planet Density Limit Flag'}
+{'column_name': 'pl_densstr', 'datatype': 'char', 'description': 'Planet Density'}
+{'column_name': 'pl_dens_reflink', 'datatype': 'char', 'description': 'Planet Density Reference'}
+{'column_name': 'pl_trandep', 'datatype': 'double', 'description': 'Transit Depth'}
+{'column_name': 'pl_trandeperr1', 'datatype': 'double', 'description': 'Transit Depth Upper Unc.'}
+{'column_name': 'pl_trandeperr2', 'datatype': 'double', 'description': 'Transit Depth Lower Unc.'}
+{'column_name': 'pl_trandeplim', 'datatype': 'int', 'description': 'Transit Depth Limit Flag'}
+{'column_name': 'pl_trandepstr', 'datatype': 'char', 'description': 'Transit Depth'}
+{'column_name': 'pl_trandep_reflink', 'datatype': 'char', 'description': 'Transit Depth Reference'}
+{'column_name': 'pl_tranmid', 'datatype': 'double', 'description': 'Transit Midpoint'}
+{'column_name': 'pl_tranmiderr1', 'datatype': 'double', 'description': 'Transit Midpoint Upper Unc.'}
+{'column_name': 'pl_tranmiderr2', 'datatype': 'double', 'description': 'Transit Midpoint Lower Unc.'}
+{'column_name': 'pl_tranmidlim', 'datatype': 'int', 'description': 'Transit Midpoint Limit Flag'}
+{'column_name': 'pl_angsep_reflink', 'datatype': 'char', 'description': 'Angular Separation Reference'}
+{'column_name': 'pl_tranmidstr', 'datatype': 'char', 'description': 'Time of Conjunction (Transit Midpoint)'}
+{'column_name': 'pl_tranmid_reflink', 'datatype': 'char', 'description': 'Time of Conjunction (Transit Midpoint) Reference'}
+{'column_name': 'pl_trandur', 'datatype': 'double', 'description': 'Transit Duration'}
+{'column_name': 'pl_trandurerr1', 'datatype': 'double', 'description': 'Transit Duration Upper Unc.'}
+{'column_name': 'pl_trandurerr2', 'datatype': 'double', 'description': 'Transit Duration Lower Unc.'}
+{'column_name': 'pl_trandurlim', 'datatype': 'int', 'description': 'Transit Duration Limit Flag'}
+{'column_name': 'pl_trandurstr', 'datatype': 'char', 'description': 'Transit Duration'}
+{'column_name': 'pl_trandur_reflink', 'datatype': 'char', 'description': 'Transit Duration Reference'}
+{'column_name': 'pl_rvamp', 'datatype': 'double', 'description': 'Radial Velocity Amplitude'}
+{'column_name': 'pl_rvamperr1', 'datatype': 'double', 'description': 'Radial Velocity Amplitude Upper Unc.'}
+{'column_name': 'pl_rvamperr2', 'datatype': 'double', 'description': 'Radial Velocity Amplitude Lower Unc.'}
+{'column_name': 'pl_rvamplim', 'datatype': 'int', 'description': 'Radial Velocity Amplitude Limit Flag'}
+{'column_name': 'pl_rvampstr', 'datatype': 'char', 'description': 'Radial Velocity Amplitude'}
+{'column_name': 'pl_rvamp_reflink', 'datatype': 'char', 'description': 'Radial Velocity Amplitude Reference'}
+{'column_name': 'pl_radj', 'datatype': 'double', 'description': 'Planet Radius'}
+{'column_name': 'pl_radjerr1', 'datatype': 'double', 'description': 'Planet Radius Upper Unc.'}
+{'column_name': 'pl_radjerr2', 'datatype': 'double', 'description': 'Planet Radius Lower Unc.'}
+{'column_name': 'pl_radjlim', 'datatype': 'int', 'description': 'Planet Radius Limit Flag'}
+{'column_name': 'pl_radjstr', 'datatype': 'char', 'description': 'Planet Radius'}
+{'column_name': 'pl_radj_reflink', 'datatype': 'char', 'description': 'Planet Radius Reference'}
+{'column_name': 'pl_rade', 'datatype': 'double', 'description': 'Planet Radius'}
+{'column_name': 'pl_radeerr1', 'datatype': 'double', 'description': 'Planet Radius Upper Unc.'}
+{'column_name': 'pl_radeerr2', 'datatype': 'double', 'description': 'Planet Radius Lower Unc.'}
+{'column_name': 'pl_radelim', 'datatype': 'int', 'description': 'Planet Radius Limit Flag'}
+{'column_name': 'pl_radestr', 'datatype': 'char', 'description': 'Planet Radius'}
+{'column_name': 'pl_rade_reflink', 'datatype': 'char', 'description': 'Planet Radius Reference'}
+{'column_name': 'pl_ratror', 'datatype': 'double', 'description': 'Ratio of Planet to Stellar Radius'}
+{'column_name': 'pl_ratrorerr1', 'datatype': 'double', 'description': 'Ratio of Planet to Stellar Radius Upper Unc.'}
+{'column_name': 'pl_ratrorerr2', 'datatype': 'double', 'description': 'Ratio of Planet to Stellar Radius Lower Unc.'}
+{'column_name': 'pl_ratrorlim', 'datatype': 'int', 'description': 'Ratio of Planet to Stellar Radius Limit Flag'}
+{'column_name': 'pl_ratrorstr', 'datatype': 'char', 'description': 'Ratio of Planet to Stellar Radius'}
+{'column_name': 'pl_ratror_reflink', 'datatype': 'char', 'description': 'Ratio of Planet to Stellar Radius Reference'}
+{'column_name': 'pl_ratdor', 'datatype': 'double', 'description': 'Ratio of Semi-Major Axis to Stellar Radius'}
+{'column_name': 'pl_ratdorerr1', 'datatype': 'double', 'description': 'Ratio of Semi-Major Axis to Stellar Radius Upper Unc.'}
+{'column_name': 'pl_ratdorerr2', 'datatype': 'double', 'description': 'Ratio of Semi-Major Axis to Stellar Radius Lower Unc.'}
+{'column_name': 'pl_ratdorlim', 'datatype': 'int', 'description': 'Ratio of Semi-Major Axis to Stellar Radius Limit Flag'}
+{'column_name': 'pl_ratdor_reflink', 'datatype': 'char', 'description': 'Ratio of Semi-Major Axis to Stellar Radius Reference'}
+{'column_name': 'pl_ratdorstr', 'datatype': 'char', 'description': 'Ratio of Semi-Major Axis to Stellar Radius'}
+{'column_name': 'pl_imppar', 'datatype': 'double', 'description': 'Impact Parameter'}
+{'column_name': 'pl_impparerr1', 'datatype': 'double', 'description': 'Impact Parameter Upper Unc.'}
+{'column_name': 'pl_impparerr2', 'datatype': 'double', 'description': 'Impact Parameter Lower Unc.'}
+{'column_name': 'pl_impparlim', 'datatype': 'int', 'description': 'Impact Parameter Limit Flag'}
+{'column_name': 'pl_impparstr', 'datatype': 'char', 'description': 'Impact Parameter'}
+{'column_name': 'pl_imppar_reflink', 'datatype': 'char', 'description': 'Impact Parameter Reference'}
+{'column_name': 'pl_bmassj', 'datatype': 'double', 'description': 'Planet Mass or Mass*sin(i)'}
+{'column_name': 'pl_bmassjerr1', 'datatype': 'double', 'description': 'Planet Mass or Mass*sin(i) [Jupiter Mass] Upper Unc.'}
+{'column_name': 'pl_bmassjerr2', 'datatype': 'double', 'description': 'Planet Mass or Mass*sin(i) [Jupiter Mass] Lower Unc.'}
+{'column_name': 'pl_bmassjlim', 'datatype': 'int', 'description': 'Planet Mass or Mass*sin(i) [Jupiter Mass] Limit Flag'}
+{'column_name': 'pl_bmassjstr', 'datatype': 'char', 'description': 'Planet Mass or Mass*sin(i)'}
+{'column_name': 'pl_bmassj_reflink', 'datatype': 'char', 'description': 'Planet Mass or Mass*sin(i) [Jupiter Mass] Reference'}
+{'column_name': 'pl_bmasse', 'datatype': 'double', 'description': 'Planet Mass or Mass*sin(i)'}
+{'column_name': 'pl_bmasseerr1', 'datatype': 'double', 'description': 'Planet Mass or Mass*sin(i) [Earth Mass] Upper Unc.'}
+{'column_name': 'pl_bmasseerr2', 'datatype': 'double', 'description': 'Planet Mass or Mass*sin(i) [Earth Mass] Lower Unc.'}
+{'column_name': 'pl_bmasselim', 'datatype': 'int', 'description': 'Planet Mass or Mass*sin(i) [Earth Mass] Limit Flag'}
+{'column_name': 'pl_bmassestr', 'datatype': 'char', 'description': 'Planet Mass or Mass*sin(i)'}
+{'column_name': 'pl_name', 'datatype': 'char', 'description': 'Planet Name'}
+{'column_name': 'pl_letter', 'datatype': 'char', 'description': 'Planet Letter'}
+{'column_name': 'hostname', 'datatype': 'char', 'description': 'Host Name'}
+{'column_name': 'hd_name', 'datatype': 'char', 'description': 'HD ID'}
+{'column_name': 'hip_name', 'datatype': 'char', 'description': 'HIP ID'}
+{'column_name': 'tic_id', 'datatype': 'char', 'description': 'TIC ID'}
+{'column_name': 'disc_pubdate', 'datatype': 'char', 'description': 'Discovery Publication Date'}
+{'column_name': 'disc_year', 'datatype': 'int', 'description': 'Discovery Year'}
+{'column_name': 'discoverymethod', 'datatype': 'char', 'description': 'Discovery Method'}
+{'column_name': 'disc_locale', 'datatype': 'char', 'description': 'Discovery Locale'}
+{'column_name': 'disc_facility', 'datatype': 'char', 'description': 'Discovery Facility'}
+{'column_name': 'disc_instrument', 'datatype': 'char', 'description': 'Discovery Instrument'}
+{'column_name': 'disc_telescope', 'datatype': 'char', 'description': 'Discovery Telescope'}
+{'column_name': 'disc_refname', 'datatype': 'char', 'description': 'Discovery Reference'}
+{'column_name': 'ra', 'datatype': 'double', 'description': 'RA [decimal]'}
+{'column_name': 'rastr', 'datatype': 'char', 'description': 'RA'}
+{'column_name': 'dec', 'datatype': 'double', 'description': 'Dec [decimal]'}
+{'column_name': 'decstr', 'datatype': 'char', 'description': 'Dec'}
+{'column_name': 'glon', 'datatype': 'double', 'description': 'Galactic Longitude'}
+{'column_name': 'glat', 'datatype': 'double', 'description': 'Galactic Latitude'}
+{'column_name': 'pl_angsep', 'datatype': 'double', 'description': 'Angular Separation'}
+{'column_name': 'pl_angseperr1', 'datatype': 'double', 'description': 'Angular Separation Upper Unc'}
+{'column_name': 'pl_angseperr2', 'datatype': 'double', 'description': 'Angular Separation Lower Unc'}
+{'column_name': 'elon', 'datatype': 'double', 'description': 'Ecliptic Longitude'}
+{'column_name': 'pl_bmasse_reflink', 'datatype': 'char', 'description': 'Planet Mass or Mass*sin(i) [Earth Mass] Reference'}
+{'column_name': 'pl_bmassprov', 'datatype': 'char', 'description': 'Planet Mass or Mass*sin(i) Provenance'}
+{'column_name': 'st_teff', 'datatype': 'double', 'description': 'Stellar Effective Temperature'}
+{'column_name': 'st_tefferr1', 'datatype': 'double', 'description': 'Stellar Effective Temperature Upper Upper Unc.'}
+{'column_name': 'st_tefferr2', 'datatype': 'double', 'description': 'Stellar Effective Temperature Lower Lower Unc.'}
+{'column_name': 'st_tefflim', 'datatype': 'int', 'description': 'Stellar Effective Temperature Limit Flag'}
+{'column_name': 'st_teff_reflink', 'datatype': 'char', 'description': 'Stellar Effective Temperature Reference'}
+{'column_name': 'st_teffstr', 'datatype': 'char', 'description': 'Stellar Effective Temperature'}
+{'column_name': 'st_met', 'datatype': 'double', 'description': 'Stellar Metallicity'}
+{'column_name': 'st_meterr1', 'datatype': 'double', 'description': 'Stellar Metallicity Upper Unc.'}
+{'column_name': 'st_meterr2', 'datatype': 'double', 'description': 'Stellar Metallicity Lower Unc.'}
+{'column_name': 'st_metlim', 'datatype': 'int', 'description': 'Stellar Metallicity Limit Flag'}
+{'column_name': 'st_metstr', 'datatype': 'char', 'description': 'Stellar Metallicity'}
+{'column_name': 'st_met_reflink', 'datatype': 'char', 'description': 'Stellar Metallicity Reference'}
+{'column_name': 'st_radv', 'datatype': 'double', 'description': 'Systemic Radial Velocity'}
+{'column_name': 'st_radverr1', 'datatype': 'double', 'description': 'Systemic Radial Velocity Upper Unc.'}
+{'column_name': 'st_radverr2', 'datatype': 'double', 'description': 'Systemic Radial Velocity Lower Unc.'}
+{'column_name': 'st_radvlim', 'datatype': 'int', 'description': 'Systemic Radial Velocity Limit Flag'}
+{'column_name': 'st_radvstr', 'datatype': 'char', 'description': 'Systemic Radial Velocity'}
+{'column_name': 'st_radv_reflink', 'datatype': 'char', 'description': 'Systemic Radial Velocity Reference'}
+{'column_name': 'st_vsin', 'datatype': 'double', 'description': 'Stellar Rotational Velocity'}
+{'column_name': 'st_vsinerr1', 'datatype': 'double', 'description': 'Stellar Rotational Velocity [km/s] Upper Unc.'}
+{'column_name': 'st_vsinerr2', 'datatype': 'double', 'description': 'Stellar Rotational Velocity [km/s] Lower Unc.'}
+{'column_name': 'st_vsinlim', 'datatype': 'int', 'description': 'Stellar Rotational Velocity Limit Flag'}
+{'column_name': 'st_vsinstr', 'datatype': 'char', 'description': 'Stellar Rotational Velocity'}
+{'column_name': 'st_vsin_reflink', 'datatype': 'char', 'description': 'Stellar Rotational Velocity Reference'}
+{'column_name': 'st_lum', 'datatype': 'double', 'description': 'Stellar Luminosity'}
+{'column_name': 'st_lumerr1', 'datatype': 'double', 'description': 'Stellar Luminosity Upper Unc.'}
+{'column_name': 'st_lumerr2', 'datatype': 'double', 'description': 'Stellar Luminosity Lower Unc.'}
+{'column_name': 'st_lumlim', 'datatype': 'int', 'description': 'Stellar Luminosity Limit Flag'}
+{'column_name': 'st_lumstr', 'datatype': 'char', 'description': 'Stellar Luminosity'}
+{'column_name': 'st_lum_reflink', 'datatype': 'char', 'description': 'Stellar Luminosity Reference'}
+{'column_name': 'st_logg', 'datatype': 'double', 'description': 'Stellar Surface Gravity'}
+{'column_name': 'st_loggerr1', 'datatype': 'double', 'description': 'Stellar Surface Gravity Upper Unc.'}
+{'column_name': 'st_loggerr2', 'datatype': 'double', 'description': 'Stellar Surface Gravity Lower Unc.'}
+{'column_name': 'st_logglim', 'datatype': 'int', 'description': 'Stellar Surface Gravity Limit Flag'}
+{'column_name': 'st_loggstr', 'datatype': 'char', 'description': 'Stellar Surface Gravity'}
+{'column_name': 'st_logg_reflink', 'datatype': 'char', 'description': 'Stellar Surface Gravity Reference'}
+{'column_name': 'st_age', 'datatype': 'double', 'description': 'Stellar Age'}
+{'column_name': 'st_ageerr1', 'datatype': 'double', 'description': 'Stellar Age Upper Unc.'}
+{'column_name': 'st_ageerr2', 'datatype': 'double', 'description': 'Stellar Age Lower Unc.'}
+{'column_name': 'st_agelim', 'datatype': 'int', 'description': 'Stellar Age Limit Flag'}
+{'column_name': 'st_agestr', 'datatype': 'char', 'description': 'Stellar Age'}
+{'column_name': 'st_age_reflink', 'datatype': 'char', 'description': 'Stellar Age Reference'}
+{'column_name': 'st_mass', 'datatype': 'double', 'description': 'Stellar Mass'}
+{'column_name': 'st_masserr1', 'datatype': 'double', 'description': 'Stellar Mass Upper Unc.'}
+{'column_name': 'st_masserr2', 'datatype': 'double', 'description': 'Stellar Mass Lower Unc.'}
+{'column_name': 'st_masslim', 'datatype': 'int', 'description': 'Stellar Mass Limit Flag'}
+{'column_name': 'st_mass_reflink', 'datatype': 'char', 'description': 'Stellar Mass Reference'}
+{'column_name': 'st_massstr', 'datatype': 'char', 'description': 'Stellar Mass'}
+{'column_name': 'st_dens', 'datatype': 'double', 'description': 'Stellar Density'}
+{'column_name': 'st_denserr1', 'datatype': 'double', 'description': 'Stellar Density Upper Unc.'}
+{'column_name': 'st_denserr2', 'datatype': 'double', 'description': 'Stellar Density Lower Unc.'}
+{'column_name': 'st_denslim', 'datatype': 'int', 'description': 'Stellar Density Limit Flag'}
+{'column_name': 'st_densstr', 'datatype': 'char', 'description': 'Stellar Density'}
+{'column_name': 'st_dens_reflink', 'datatype': 'char', 'description': 'Stellar Density Reference'}
+{'column_name': 'st_rad', 'datatype': 'double', 'description': 'Stellar Radius'}
+{'column_name': 'st_raderr1', 'datatype': 'double', 'description': 'Stellar Radius Upper Unc.'}
+{'column_name': 'st_raderr2', 'datatype': 'double', 'description': 'Stellar Radius Lower Unc.'}
+{'column_name': 'st_radlim', 'datatype': 'int', 'description': 'Stellar Radius Limit Flag'}
+{'column_name': 'st_radstr', 'datatype': 'char', 'description': 'Stellar Radius'}
+{'column_name': 'st_rad_reflink', 'datatype': 'char', 'description': 'Stellar Radius Refence'}
+{'column_name': 'ttv_flag', 'datatype': 'int', 'description': 'Data show Transit Timing Variations'}
+{'column_name': 'ptv_flag', 'datatype': 'int', 'description': 'Detected by Pulsation Timing Variations'}
+{'column_name': 'tran_flag', 'datatype': 'int', 'description': 'Detected by Transits'}
+{'column_name': 'rv_flag', 'datatype': 'int', 'description': 'Detected by Radial Velocity Variations'}
+{'column_name': 'ast_flag', 'datatype': 'int', 'description': 'Detected by Astrometric Variations'}
+{'column_name': 'obm_flag', 'datatype': 'int', 'description': 'Detected by Orbital Brightness Modulations'}
+{'column_name': 'micro_flag', 'datatype': 'int', 'description': 'Detected by Microlensing'}
+{'column_name': 'etv_flag', 'datatype': 'int', 'description': 'Detected by Eclipse Timing Variations'}
+{'column_name': 'ima_flag', 'datatype': 'int', 'description': 'Detected by Imaging'}
+{'column_name': 'pul_flag', 'datatype': 'int', 'description': 'Detected by Pulsar Timing Variations'}
+{'column_name': 'sy_snum', 'datatype': 'int', 'description': 'Number of Stars'}
+{'column_name': 'sy_pnum', 'datatype': 'int', 'description': 'Number of Planets'}
+{'column_name': 'sy_mnum', 'datatype': 'int', 'description': 'Number of Moons'}
+{'column_name': 'st_nphot', 'datatype': 'int', 'description': 'Number of Photometry Time Series'}
+{'column_name': 'sy_icmag_reflink', 'datatype': 'char', 'description': 'I (Cousins) Magnitude Solnid'}
+{'column_name': 'dkin_flag', 'datatype': 'int', 'description': 'Detected by Disk Kinematics'}
+{'column_name': 'pl_nobs_jwst_tran', 'datatype': 'int', 'description': 'Number of JWST Observations - Transit'}
+{'column_name': 'pl_nobs_jwst_e', 'datatype': 'int', 'description': 'Number of JWST Observations - Exclipse'}
+{'column_name': 'pl_nobs_jwst_di', 'datatype': 'int', 'description': 'Number of JWST Observations - Direct Imaging'}
+{'column_name': 'pl_nobs_jwst_pc', 'datatype': 'int', 'description': 'Number of JWST Observations - Phase Curve'}
+{'column_name': 'pl_tsm', 'datatype': 'double', 'description': 'Transit Spectroscopy Metric'}
+{'column_name': 'pl_tsmerr1', 'datatype': 'double', 'description': 'Transit Spectroscopy Metric'}
+{'column_name': 'pl_tsmerr2', 'datatype': 'double', 'description': 'Transit Spectroscopy Metric'}
+{'column_name': 'pl_tsm_reflink', 'datatype': 'char', 'description': 'Transit Spectroscopy Metric'}
+{'column_name': 'pl_tsm_solnid', 'datatype': 'char', 'description': 'Transit Spectroscopy Metric'}
+{'column_name': 'pl_tsmstr', 'datatype': 'int', 'description': 'Transit Spectroscopy Metric Symmetric Error'}
+{'column_name': 'pl_tsmlim', 'datatype': 'int', 'description': 'Transit Spectroscopy Metric Limit'}
+{'column_name': 'pl_esm', 'datatype': 'double', 'description': 'Emission Spectroscopy Metric'}
+{'column_name': 'pl_esmerr1', 'datatype': 'double', 'description': 'Emission Spectroscopy Metric'}
+{'column_name': 'pl_esmerr2', 'datatype': 'double', 'description': 'Emission Spectroscopy Metric'}
+{'column_name': 'pl_esm_reflink', 'datatype': 'char', 'description': 'Emission Spectroscopy Metric'}
+{'column_name': 'pl_esm_solnid', 'datatype': 'char', 'description': 'Emission Spectroscopy Metric'}
+{'column_name': 'pl_esmstr', 'datatype': 'int', 'description': 'Emission Spectroscopy Metric Symmetric Error'}
+{'column_name': 'pl_esmlim', 'datatype': 'int', 'description': 'Emission Spectroscopy Metric Limit'}
