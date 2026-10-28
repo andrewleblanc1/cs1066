@@ -29,9 +29,10 @@
 
 Harvard women's basketball (4-2, 1-0 Ivy) continued its 2024-25 campaign this evening with a 71-58 win over in-state rival, the UMass Minutewomen (0-1, 0-0 A10).
 
-Chloe Petrakis led the charge for the Crimson, making plays everywhere on the court with a career-best 20 points (7-14 FG, 4-7 3-PT), six rebounds, four assists, three steals, and two blocks.
 
-Addison Garrison also provided an all-around performance for the Crimson, contributing 18 points on 80% shooting, eight rebounds, three assists, and four steals.  As a team, Harvard overwhelmed the Minutewomen, forcing 34 turnovers and capitalizing for 33 points in return. 
+Addison Garrison provided an all-around performance for the Crimson, contributing 18 points on 80% shooting, eight rebounds, three assists, and four steals.  As a team, Harvard overwhelmed the Minutewomen, forcing 34 turnovers and capitalizing for 33 points in return. 
+
+Chloe Petrakis led the charge for the Crimson with a career-best 20 points (7-14 FG, 4-7 3-PT), six rebounds, four assists, three steals, and two blocks.
 
 On Petrakis' comprehensive performance, her Head Coach, said, "Credit to Chloe, she did a lot of work this summer. She came back a much different basketball player, energetically, confidence wise, physically, mentally, emotionally… All that I talk to our team about, she brings to the court. I mean how can you not play her?  She made so many huge plays for us offensively but most importantly, defensively too."
 
