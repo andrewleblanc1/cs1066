@@ -67,6 +67,7 @@ similar
 low scoring game
 champions
 
+semantic: chloe petrakis big game on both ends of the court
 ----
 
 **NOTE:** Delete this text and repeat the above block as many times as you prompted AI.

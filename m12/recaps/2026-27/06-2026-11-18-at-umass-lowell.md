@@ -1,81 +1,59 @@
-# Harvard Drops Road Contest to UMass Lowell, 65-56
+# Women’s Basketball Drops In-State Rival UMass, 71-58
 
-**Final:** Harvard 56, UMass Lowell 65  
+**Final:** Harvard 71, UMass Lowell 58  
 **Date:** Wednesday, Nov. 18, 2026  
 **Location:** Lowell, Mass. | Costello Athletic Center  
 **Attendance:** 2,501  
 **Game:** Non-conference  
-**Harvard record:** 4-2 overall, 0-0 Ivy
+**Harvard record:** 5-1 overall, 0-0 Ivy
 
 ## Score by Quarter
 
 | Team | 1 | 2 | 3 | 4 | F |
 |---|---:|---:|---:|---:|---:|
-| Harvard | 23 | 13 | 8 | 12 | 56 |
-| UMass Lowell | 21 | 17 | 14 | 13 | 65 |
+| Harvard | 12 | 20 | 17 | 22 | 71 |
+| UMass Lowell | 15 | 6 | 16 | 21 | 58 |
 
 ## Team Statistics
 
 | Statistic | Harvard | UMass Lowell |
 |---|---:|---:|
-| Field Goal % | .338 | .444 |
-| 3-Point FG % | .357 | .259 |
-| Free Throw % | .429 | .769 |
-| Rebounds | 44 | 37 |
-| Turnovers | 13 | 16 |
-| Steals | 11 | 6 |
-
-## Box Score
-
-### Harvard
-
-| # | Player | MIN | FG | 3PT | FT | OREB | DREB | REB | AST | STL | BLK | TO | PF | PTS |
-|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 3 | Chloe Petrakis * | 30 | 6-14 | 0-0 | 1-1 | 5 | 4 | 9 | 2 | 2 | 0 | 0 | 2 | 13 |
-| 22 | Addison Garrison * | 28 | 8-11 | 4-5 | 0-0 | 3 | 1 | 4 | 1 | 2 | 0 | 2 | 1 | 20 |
-| 13 | Cara Kavanagh * | 31 | 3-11 | 0-3 | 0-0 | 0 | 6 | 6 | 1 | 2 | 0 | 1 | 2 | 6 |
-| 42 | Kira Bianchi * | 27 | 0-8 | 0-0 | 2-2 | 7 | 4 | 11 | 1 | 0 | 1 | 4 | 2 | 2 |
-| 52 | Fatima Quintero * | 29 | 2-10 | 0-4 | 0-2 | 0 | 5 | 5 | 4 | 2 | 0 | 0 | 3 | 4 |
-| 34 | Jada Nkemelu | 19 | 3-9 | 0-0 | 0-2 | 2 | 3 | 5 | 2 | 1 | 0 | 2 | 0 | 6 |
-| 2 | Anika Pemberton | 16 | 0-2 | 0-0 | 0-0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 1 | 0 |
-| 35 | Celeste Laurent | 13 | 1-3 | 1-1 | 0-0 | 0 | 0 | 0 | 1 | 2 | 0 | 0 | 0 | 3 |
-| 31 | Jasmine Ramsey | 5 | 1-3 | 0-1 | 0-0 | 0 | 1 | 1 | 0 | 0 | 0 | 1 | 2 | 2 |
-| 10 | Niamh Hollis | 2 | 0-0 | 0-0 | 0-0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
-| | TEAM | | | | | 2 | 1 | 3 | | | | | | |
-| | **Totals** | 200 | 24-71 | 5-14 | 3-7 | 19 | 25 | 44 | 12 | 11 | 1 | 13 | 14 | 56 |
-
-\* starter
-
-FG%: .338 | 3PT%: .357 | FT%: .429
-
-### UMass Lowell
-
-| Team | MIN | FG | 3PT | FT | OREB | DREB | REB | AST | STL | BLK | TO | PF | PTS |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Totals** | 200 | 24-54 | 7-27 | 10-13 | 7 | 30 | 37 | 15 | 6 | 4 | 16 | 9 | 65 |
-
-FG%: .444 | 3PT%: .259 | FT%: .769
+| Field Goal % | .356 | .442 |
+| 3-Point FG % | .308 | .400 |
+| Free Throw % | .786 | .889 |
+| Rebounds | 35 | 43 |
+| Turnovers | 16 | 34 |
+| Steals | 19 | 9 |
 
 ---
 
-Harvard women's basketball (4-2) dropped a 65-56 decision to UMass Lowell on Wednesday at Costello Athletic Center in Lowell, Mass.
+Harvard women's basketball (4-2, 1-0 Ivy) continued its 2024-25 campaign this evening with a 71-58 win over in-state rival, the UMass Minutewomen (0-1, 0-0 A10).
 
-The River Hawks shot 44.4% from the field, while Harvard was held to 33.8%.
+Chloe Petrakis led the charge for the Crimson, making plays everywhere on the court with a career-best 20 points (7-14 FG, 4-7 3-PT), six rebounds, four assists, three steals, and two blocks.
+
+Addison Garrison also provided an all-around performance for the Crimson, contributing 18 points on 80% shooting, eight rebounds, three assists, and four steals.  As a team, Harvard overwhelmed the Minutewomen, forcing 34 turnovers and capitalizing for 33 points in return. 
+
+On Petrakis' comprehensive performance, her Head Coach, said, "Credit to Chloe, she did a lot of work this summer. She came back a much different basketball player, energetically, confidence wise, physically, mentally, emotionally… All that I talk to our team about, she brings to the court. I mean how can you not play her?  She made so many huge plays for us offensively but most importantly, defensively too."
 
 ## How it Happened
 
-The River Hawks scored first before junior Addison Garrison hit a pull-up jumper for Harvard's first points. UMass Lowell went on an 8-0 run early in the quarter, which broke a 4-all tie and pushed the River Hawks ahead 12-4. A 19-9 Harvard run in the quarter, capped by Garrison's triple, turned a 12-4 deficit into a 23-21 lead. That was the score after one quarter.
+The Minutewomen connected for the first seven points of the contest before the Crimson came to life and registered 10 unanswered.  The first quarter remained relatively low scoring, as UMass was eventually able to retake its lead and hold a 15-12 advantage after 10 minutes.
 
-An 8-2 UMass Lowell spurt midway through the quarter flipped a 34-30 deficit into a 38-36 lead. The score held there at halftime.
+As either end of the court came to life for Harvard in the second quarter, the Crimson were able to grow its lead out to 11.  A Cara Kavanagh triple and a bucket from Chloe Petrakis put the Crimson in front 16-15 two minutes into the frame and the home team would go on to never again relinquish its lead in the contest.  On the back of an 11-0 scoring run in the first half of the quarter, the Crimson were overtaking all momentum.  Ultimately the Crimson were able to hold a comfortable 32-21 lead heading into the locker room, having outscored the Minutewomen 20-6 in the second frame.  At the half the Crimson had already collected nine steals and forced 17 turnovers.
 
-The River Hawks countered with a 14-0 run in the quarter that flipped a 40-38 deficit into a 52-40 lead. Harvard trailed 52-44 entering the fourth.
+Harvard continued to maintain its lead out of the break, responding to each UMass attempted push at cutting the deficit.  The Crimson were able to bring the advantage back to double digits consistently, eventually heading into the final frame with a 12 point cushion.  Harvard saw contributions from five different players as it put up 17 points to combat the Minutewomen's strongest shooting quarter so far. 
 
-The River Hawks went on a 7-0 run early in the quarter, which extended the lead to 59-44. Harvard got within 62-56 with 47 seconds left, but UMass Lowell outscored the Crimson 3-0 the rest of the way.
+UMass continued to show its fight into the final quarter, cutting the Crimson lead to five at the 5:08 mark and then to three with less than two minutes remaining.  Combining strong defensive efforts and clutch buckets, Harvard reached another double figure advantage and solidified a win on opening night.  With less than a minute remaining, Anika Pemberton connected for an exclamation three, putting Harvard up 64-58 and triggering late game fouling to eventually put the Crimson back with its largest lead of the night at 13 with a 71-58 final result.
 
 ## Harvard Highlights
 
-- With the loss, Harvard moves to 4-2 overall.
-- Junior Addison Garrison led the way for Harvard with 20 points (8-of-11 FG, 4-of-5 3-PT).
-- Senior Chloe Petrakis contributed 13 points (6-of-14 FG, 1-of-1 FT) and nine rebounds.
-- Junior Kira Bianchi grabbed 11 rebounds.
-- The 20 points were a season high for Garrison.
+Chloe Petrakis had a career night, posting a career-best 20 points on 7-of-14 shooting from the field and 4-of-7 from distance to lead the way for the Crimson. Petrakis was making plays all over the court, adding six rebounds, four assists, three steals, and two blocks all while not committed a foul in 28 minutes played.
+
+Addison Garrison also posted an all-around performance, adding 18 points while shooting 80% (8-of-10 FG) from the field, a team-high eight rebounds, three assists, and four steals.
+
+Cara Kavanagh closed out the Crimson players in double figures, connected for 13 points while also dishing out four assists and collecting a team-best five takeaways. 
+
+The story of the contest for Harvard was defense as it posted its most steals since the 2021-22 season with 19, forced 34 total Minutewomen turnovers, and recorded eight blocks.  The Crimson capitalized for 33 points off of UMass turnovers. 
+Six different Crimson registered two or more steals, led by Kavanagh, totaling five on the night.
+Of its 26 made field goals, the Crimson dished out 15 assists, led by four each from Petrakis and Kavanagh. 
+With the win, the Crimson improve to 12-14 all-time versus the Minutewomen.  Although trailing in the all-time series, Havard has won 11 of the last 13 meetings, including the last three.
