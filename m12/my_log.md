@@ -2,7 +2,7 @@
 
 Andrew Le Blanc
 
-INSERT-YOUR-VIDEO-LINK (after completing this assignment)
+(https://drive.google.com/file/d/1KEdytYGx_4ZOD8J2uuY8QtF_1o1yjHhO/view?usp=sharing)
 
 ----
 ----
@@ -51,26 +51,6 @@ How the AI's response to this prompt helped my thinking (or not):
 
 ----
 
-Text of my next prompt:
-
-> INSERT-PROMPT-TEXT
-
-How the AI's response to this prompt helped my thinking (or not):
-
-*   WRITE-BULLET-LIST-OF-ASSERTIONS
-
-differences:
-Cornell win
-yale loss - confirmed, only two yale losses LOL
-
-similar
-low scoring game
-champions
-
-semantic: chloe petrakis big game on both ends of the court
-----
-
-**NOTE:** Delete this text and repeat the above block as many times as you prompted AI.
 
 ----
 ----
@@ -87,22 +67,16 @@ Space where you can document your thoughts on Part 2a (UNGRADED).
 
 Text of my first prompt (in **Part 2b**):
 
-> INSERT-PROMPT-TEXT
+What should my strategy be in my effort to create a game recap that will pop up with semantic search?
 
 How the AI's response to this prompt moved your work forward (or not):
 
-*   WRITE-BULLET-LIST-OF-ASSERTIONS
+*  -  AI pointed me in the right direction and told me to create a recap with a section that is different than all the other sections
+- This makes sense because all the other AI generated recaps are bound to follow the same pattern
+- Thus I will create a recap that breaks that pattern and is different than all the other recaps.
+- Specifically, I want to find an old recap that is real and differs from the usual style present in these AI recaps
+- This is because I do not want AI to rewrite another recap as that seems counterintuitive to me considering we are rewriting these recaps because AI wrote them.
+- Thus I will simply edit an old recap from the Crimson that fits the criteria I am looking for.
 
 ----
 
-Text of my next prompt:
-
-> INSERT-PROMPT-TEXT
-
-How the AI's response to this prompt moved your work forward (or not):
-
-*   WRITE-BULLET-LIST-OF-ASSERTIONS
-
-----
-
-**NOTE:** Delete this text and repeat the above block as many times as you prompted AI.
