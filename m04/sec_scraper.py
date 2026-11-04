@@ -322,9 +322,9 @@ def select_metric_records(
         period = _period_key(metric, record)
         previous = records_by_period.get(period)
         if previous is None or (
-            record["filed"], record["source_rank"], record["accn"]
+            -record["source_rank"], record["filed"], record["accn"]
         ) > (
-            previous["filed"], previous["source_rank"], previous["accn"] or ""
+            -previous["source_rank"], previous["filed"], previous["accn"] or ""
         ):
             records_by_period[period] = record
 
