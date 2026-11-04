@@ -1,8 +1,8 @@
 ## My Lab Notebook for CS1066 PSet #2
 
 Andrew Le Blanc
-
-(https://drive.google.com/file/d/16jW7Gf9D9U3AgXFxsZmBM6G2GAvO-909/view?usp=sharing)
+FYI: I only lost points for failing to show another company besides AMD in the video. So the only change is I recorded a new video showcasing AMD and Nividia.
+(https://drive.google.com/file/d/14Dw876TbdN5lnFKlhNh0IL6pReo67mOL/view?usp=sharing)
 
 ----
 ----
